@@ -105,14 +105,14 @@ export default function Home() {
             <div className="basis-1/3 flex-1 text-center lg:mb-40">
             <h4 className="text-2xl py-4">Portfolio Website</h4>
               <embed src="https://jamie-website.vercel.app#anchor/" className="rounded-lg object-cover lg:aspect-video aspect-[4/3] mb-10" width={'100%'} height={'100%'} layout="responsive"/>
-              <a className="mx-5 w-30 px-4 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href = "https://github.com/eejl773/My-Website">Link to GitHub Repository</a>
-              <a className="mx-5 w-30 px-4 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href ="https://jamie-website.vercel.app/">Link to website</a>
+              <a className="text-xs mx-1 w-30 px-2 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href = "https://github.com/eejl773/My-Website">Link to GitHub Repository</a>
+              <a className="text-xs mx-1 w-30 px-2 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href ="https://jamie-website.vercel.app/">Link to website</a>
             </div>
             <div className="basis-1/3 flex-1 text-center lg:mb-40">
               <h4 className="text-2xl py-4">21 Card Trick</h4>
               <embed src="https://eejl773.github.io/21-Card-Trick/" className="rounded-lg object-cover lg:aspect-video aspect-[4/3] mb-10" width={'100%'} height={'100%'} layout="responsive"/>
-              <a className="mx-5 w-30 px-4 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href ="https://github.com/eejl773/21-Card-Trick">Link to GitHub Repository</a>
-              <a className="mx-5 w-30 px-4 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href ="https://eejl773.github.io/21-Card-Trick/">Link to website</a>
+              <a className="text-xs mx-1 w-30 px-2 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href ="https://github.com/eejl773/21-Card-Trick">Link to GitHub Repository</a>
+              <a className="text-xs mx-1 w-30 px-2 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href ="https://eejl773.github.io/21-Card-Trick/">Link to website</a>
             </div>
           </div>
         </section>
