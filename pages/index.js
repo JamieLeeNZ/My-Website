@@ -31,7 +31,7 @@ export default function Home() {
             <h3 className="text-2xl py-2 md:text-3xl">Software Engineering Student</h3>
             <p className="text-md py-5 leading-8  md:text-xl max-w-xl mx-auto">Hey! I&apos;m a software engineering student at the University of Auckland. I&apos;m currently in my second year of study and I&apos;m looking for a summer internship for 2023.</p>
           </div>
-          <div className="relative mx-auto mb-10 w-80 h-80 md:height-96 md:width-96">
+          <div id="anchor" className="relative mx-auto mb-10 w-80 h-80 md:height-96 md:width-96">
             <Image src={pfp} className="rounded-full" layout="fill" objectFit="cover" alt=""/>
           </div>
           <div className="text-center my-5">
@@ -104,14 +104,14 @@ export default function Home() {
             
             <div className="basis-1/3 flex-1 text-center lg:mb-40">
             <h4 className="text-2xl py-4">Portfolio Website</h4>
-              <embed src="https://eejl773.github.io/21-Card-Trick/" className="rounded-lg object-cover lg:aspect-video aspect-[4/3] mb-10" width={'100%'} height={'100%'} layout="responsive"/>
-              <a className="mx-5 w-30 px-4 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" >Link to GitHub Repository</a>
-              <a className="mx-5 w-30 px-4 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href ="#top">Link to website</a>
+              <embed src="https://jamie-website.vercel.app#anchor/" className="rounded-lg object-cover lg:aspect-video aspect-[4/3] mb-10" width={'100%'} height={'100%'} layout="responsive"/>
+              <a className="mx-5 w-30 px-4 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href = "https://github.com/eejl773/My-Website">Link to GitHub Repository</a>
+              <a className="mx-5 w-30 px-4 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href ="https://jamie-website.vercel.app/">Link to website</a>
             </div>
             <div className="basis-1/3 flex-1 text-center lg:mb-40">
               <h4 className="text-2xl py-4">21 Card Trick</h4>
               <embed src="https://eejl773.github.io/21-Card-Trick/" className="rounded-lg object-cover lg:aspect-video aspect-[4/3] mb-10" width={'100%'} height={'100%'} layout="responsive"/>
-              <a className="mx-5 w-30 px-4 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" >Link to GitHub Repository</a>
+              <a className="mx-5 w-30 px-4 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href ="https://github.com/eejl773/21-Card-Trick">Link to GitHub Repository</a>
               <a className="mx-5 w-30 px-4 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href ="https://eejl773.github.io/21-Card-Trick/">Link to website</a>
             </div>
           </div>
