@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
-        <title>Jamie's Portfolio</title>
+        <title>Jamie&apos;s Portfolio</title>
       </Head>
       <main className="bg-white dark:bg-slate-800 px-10 md:px-20 lg:px-40 text-gray-800 dark:text-white font-sans">
         <section id="top">
@@ -29,10 +29,10 @@ export default function Home() {
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-slate-500 font-medium md:text-6xl">Jamie Lee</h2>
             <h3 className="text-2xl py-2 md:text-3xl">Software Engineering Student</h3>
-            <p className="text-md py-5 leading-8  md:text-xl max-w-xl mx-auto">Hey! I'm a software engineering student at the University of Auckland. I'm currently in my second year of study and I'm looking for a summer internship for 2023.</p>
+            <p className="text-md py-5 leading-8  md:text-xl max-w-xl mx-auto">Hey! I&apos;m a software engineering student at the University of Auckland. I&apos;m currently in my second year of study and I&apos;m looking for a summer internship for 2023.</p>
           </div>
           <div className="relative mx-auto mb-10 w-80 h-80 md:height-96 md:width-96">
-            <Image src={pfp} className="rounded-full" layout="fill" objectFit="cover"/>
+            <Image src={pfp} className="rounded-full" layout="fill" objectFit="cover" alt=""/>
           </div>
           <div className="text-center my-5">
             <a className="w-30 px-4 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href="">Download CV</a>
@@ -51,12 +51,12 @@ export default function Home() {
               <p className="text-md py-5 leading-8  md:text-l max-w-xl mx-auto">Hey there! Thanks for visiting my website!</p> 
               <p className="text-md py-5 leading-8  md:text-l max-w-5xl mx-auto">I am a second year software engineering student at the University of Auckland. I am passionate about problem solving 
                 and learning new things, with a particular interest in all things STEM. I was introduced to programming for the first time in my 
-                first year of uni, and I've quickly come to appreciate the dichotomy of suffering and satisfaction that comes with it. Currently 
+                first year of uni, and I&apos;ve quickly come to appreciate the dichotomy of suffering and satisfaction that comes with it. Currently 
                 I am most interested in front-end development and machine learning, but do recognise the importance of diversifying my skillset.</p>
                 <p className="text-md py-5 leading-8  md:text-l max-w-5xl mx-auto">Interests and passions that have continued with me since childhood include origami, playing cards, and astronomy.
                 Origami fascinates me with how you can essentially create anything out of just a blank piece of paper. A deck of cards is so versatile - you can play 
                 games with it, perform magic or cardistry, or even do math. And finally, my interest with space extends from my interest with all things subliminal - 
-                I have a profound, existential desire to discover what's out there, and what we are capable of.</p>
+                I have a profound, existential desire to discover what&apos;s out there, and what we are capable of.</p>
           </div>
         </section>
         <section id="skills">
@@ -65,7 +65,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 lg:flex-row lg:flex-wrap ">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 basis-1/4 flex-1 bg-slate-50 hover:bg-gray-300 dark:bg-slate-700 dark:hover:bg-slate-500">
-              <Image src={languages} width={100} height={100} className="mx-auto"/>
+              <Image src={languages} width={100} height={100} className="mx-auto" alt=""/>
               <h3 className="text-lg font-medium pt-8 pb-2">Languages</h3>
               <div className="py-5 grid grid-cols-2">
                 <p className="py-1">Javascript</p>
@@ -77,7 +77,7 @@ export default function Home() {
               </div>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 basis-1/4 flex-1 bg-slate-50 hover:bg-gray-300 dark:bg-slate-700 dark:hover:bg-slate-500">
-              <Image src={tools} width={100} height={100} className="mx-auto"/>
+              <Image src={tools} width={100} height={100} className="mx-auto" alt=""/>
               <h3 className="text-lg font-medium pt-8 pb-2">Tools and Frameworks</h3>
               <p className=" py-1">React</p>
               <p className=" py-1">Tailwind CSS</p>
@@ -85,7 +85,7 @@ export default function Home() {
               <p className=" py-1">GitHub</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 basis-1/4 flex-1 bg-slate-50 hover:bg-gray-300 dark:bg-slate-700 dark:hover:bg-slate-500">
-              <Image src={skills} width={100} height={100} className="mx-auto"/>
+              <Image src={skills} width={100} height={100} className="mx-auto" alt=""/>
               <h3 className="text-lg font-medium pt-8 pb-2">Soft Skills</h3>
               <p className=" py-1">Communication</p>
               <p className=" py-1">Creativity</p>
@@ -97,7 +97,7 @@ export default function Home() {
         <section id="projects">
           <div className="text-center">
             <h3 className="text-3xl py-4">Projects</h3>
-            <p className="text-md py2 leadin-8">These are my current 'completed' projects! They can all be found on my <span><a href="https://github.com/eejl773" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">GitHub</a></span>.</p>
+            <p className="text-md py2 leadin-8">These are my current &apos;completed&apos; projects! They can all be found on my <span><a href="https://github.com/eejl773" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">GitHub</a></span>.</p>
             <p className="text-md py2 leadin-8">More will be added in due course.</p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
