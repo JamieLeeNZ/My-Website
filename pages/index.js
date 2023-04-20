@@ -35,7 +35,7 @@ export default function Home() {
             <Image src={pfp} className="rounded-full" layout="fill" objectFit="cover" alt=""/>
           </div>
           <div className="text-center my-5">
-            <a className="w-30 px-4 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href="">Download CV</a>
+            <a className="w-30 px-4 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href="https://drive.google.com/file/d/1fXcMl1SDd3d7IFgruFbdqMh4UWbD8nMf/view?usp=sharing">Download CV</a>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-500 mb-20">
             <a href="mailto:jamiechawin@gmail.com" className=" hover:text-gray-900 dark:hover:text-white"><AiFillMail/></a>
