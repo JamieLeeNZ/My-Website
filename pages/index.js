@@ -103,7 +103,7 @@ export default function Home() {
             <p className="text-md py2 leadin-8">These are my current &apos;completed&apos; projects! They can all be found on my <span><a href="https://github.com/eejl773" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">GitHub</a></span>.</p>
             <p className="text-md py2 leadin-8">More will be added in due course.</p>
           </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap mb-8">
             
             <div className="basis-1/3 flex-1 text-center lg:mb-40">
             <h4 className="text-2xl py-4">Weather App</h4>
