@@ -49,14 +49,17 @@ export default function Home() {
           </div>
           <div className="text-center mb-10">
               <p className="text-md py-5 leading-8  md:text-l max-w-xl mx-auto">Hey there! Thanks for visiting my website!</p> 
-              <p className="text-md py-5 leading-8  md:text-l max-w-5xl mx-auto">I am a second year software engineering student at the University of Auckland. I am passionate about problem solving 
-                and learning new things, with a particular interest in all things STEM. I was introduced to programming for the first time in my 
-                first year of uni, and I&apos;ve quickly come to appreciate the dichotomy of suffering and satisfaction that comes with it. Currently 
-                I am most interested in front-end development and machine learning, but do recognise the importance of diversifying my skillset.</p>
-                <p className="text-md py-5 leading-8  md:text-l max-w-5xl mx-auto">Interests and passions that have continued with me since childhood include origami, playing cards, and astronomy.
-                Origami fascinates me with how you can essentially create anything out of just a blank piece of paper. A deck of cards is so versatile - you can play 
-                games with it, perform magic or cardistry, or even do math. And finally, my interest with space extends from my interest with all things subliminal - 
-                I have a profound, existential desire to discover what&apos;s out there, and what we are capable of.</p>
+              <p className="text-md py-5 leading-8  md:text-l max-w-5xl mx-auto">I am a software engineering student at the University of Auckland. 
+                I am passionate about problem solving and learning new things, with a particular interest in all things STEM. I was introduced to 
+                programming for the first time in my first year of uni, and I&apos;ve quickly come to appreciate the dichotomy of suffering and 
+                satisfaction that comes with it. Currently I am most interested in front-end development and machine learning, but do recognise the 
+                importance of diversifying my skillset.
+              </p>
+              <p className="text-md py-5 leading-8  md:text-l max-w-5xl mx-auto">
+                I am on the search for a summer 2023 internship in either New Zealand or Australia where I
+                will be able to develop my skills as a software developer and gain valuable industry experience. Please check out my projects below
+                and reach out to get to know me better!
+              </p>
           </div>
         </section>
         <section id="skills"> 
