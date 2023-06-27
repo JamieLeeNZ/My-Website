@@ -59,7 +59,7 @@ export default function Home() {
                 I have a profound, existential desire to discover what&apos;s out there, and what we are capable of.</p>
           </div>
         </section>
-        <section id="skills">
+        <section id="skills"> 
           <div className="text-center">
             <h3 className="text-3xl py-1">Skills</h3>
           </div>
@@ -103,16 +103,16 @@ export default function Home() {
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             
             <div className="basis-1/3 flex-1 text-center lg:mb-40">
-            <h4 className="text-2xl py-4">Portfolio Website</h4>
-              <embed src="https://jamie-website.vercel.app#anchor/" className="rounded-lg object-cover lg:aspect-video aspect-[4/3] mb-10" width={'100%'} height={'100%'} layout="responsive"/>
-              <a className="text-xs mx-1 w-30 px-2 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href = "https://github.com/eejl773/My-Website">Link to GitHub Repository</a>
-              <a className="text-xs mx-1 w-30 px-2 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href ="https://jamie-website.vercel.app/">Link to website</a>
+            <h4 className="text-2xl py-4">Weather App</h4>
+              <embed src="https://eejl773.github.io/WeatherAppV1/" className="rounded-lg object-cover lg:aspect-video aspect-[4/3] mb-10 border" width={'100%'} height={'100%'} layout="responsive"/>
+              <a className="text-xs mx-1 w-30 px-2 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href = "https://github.com/eejl773/WeatherAppV1">Link to GitHub Repository</a>
+              <a className="text-xs mx-1 w-30 px-2 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href ="https://eejl773.github.io/WeatherAppV1/">Link to website</a>
             </div>
             <div className="basis-1/3 flex-1 text-center lg:mb-40">
-              <h4 className="text-2xl py-4">21 Card Trick</h4>
-              <embed src="https://eejl773.github.io/21-Card-Trick/" className="rounded-lg object-cover lg:aspect-video aspect-[4/3] mb-10" width={'100%'} height={'100%'} layout="responsive"/>
-              <a className="text-xs mx-1 w-30 px-2 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href ="https://github.com/eejl773/21-Card-Trick">Link to GitHub Repository</a>
-              <a className="text-xs mx-1 w-30 px-2 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href ="https://eejl773.github.io/21-Card-Trick/">Link to website</a>
+              <h4 className="text-2xl py-4">Online Store - "KiwiMart"</h4>
+              <embed src="https://alux444.github.io/online-store/" className="rounded-lg object-cover lg:aspect-video aspect-[4/3] mb-10 border" width={'100%'} height={'100%'} layout="responsive"/>
+              <a className="text-xs mx-1 w-30 px-2 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href ="https://github.com/alux444/online-store">Link to GitHub Repository</a>
+              <a className="text-xs mx-1 w-30 px-2 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href ="https://alux444.github.io/online-store/">Link to website</a>
             </div>
           </div>
         </section>
