@@ -107,14 +107,14 @@ export default function Home() {
             
             <div className="basis-1/3 flex-1 text-center lg:mb-40">
             <h4 className="text-2xl py-4">Weather App</h4>
-              <p>A simple weather app made using React, Tailwind CSS, JavaScript, and weatherapi.com's api.</p>
+              <p>A simple weather app made using React, Tailwind CSS, JavaScript, and weatherapi.com&apos;s api.</p>
               <br/>
               <embed src="https://eejl773.github.io/WeatherAppV1/" className="rounded-lg object-cover lg:aspect-video aspect-[4/3] mb-10 border" width={'100%'} height={'100%'} layout="responsive"/>
               <a className="text-xs mx-1 w-30 px-2 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href = "https://github.com/eejl773/WeatherAppV1">Link to GitHub Repository</a>
               <a className="text-xs mx-1 w-30 px-2 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href ="https://eejl773.github.io/WeatherAppV1/">Link to website</a>
             </div>
             <div className="basis-1/3 flex-1 text-center lg:mb-40">
-              <h4 className="text-2xl py-4">Online Store - "KiwiMart"</h4>
+              <h4 className="text-2xl py-4">Online Store - &quot;KiwiMart&quot;</h4>
               <p>An online store made in a team of three using React, Firebase, Tailwind CSS and JavaScript.</p>
               <br/>
               <embed src="https://alux444.github.io/online-store/" className="rounded-lg object-cover lg:aspect-video aspect-[4/3] mb-10 border" width={'100%'} height={'100%'} layout="responsive"/>
