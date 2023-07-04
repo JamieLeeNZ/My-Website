@@ -73,7 +73,7 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2">Languages</h3>
               <div className="py-5 grid grid-cols-2">
                 <p className="py-1">Javascript</p>
-                <p className=" py-1">C</p>
+                <p className=" py-1">C/C++</p>
                 <p className=" py-1">HTML</p>
                 <p className=" py-1">Java</p>
                 <p className=" py-1">CSS</p>
