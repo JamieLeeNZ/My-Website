@@ -6,6 +6,7 @@ import pfp from '../public/newpfp.png';
 import tools from '../public/tools.png';
 import languages from '../public/languages.png';
 import skills from '../public/skills.png';
+import trading from '../public/trading-project.png';
 import {useState} from 'react';
 
 
@@ -119,6 +120,21 @@ export default function Home() {
               <embed src="https://alux444.github.io/online-store/" className="rounded-lg object-cover lg:aspect-video aspect-[4/3] mb-10 border" width={'100%'} height={'100%'} layout="responsive"/>
               <a className="text-xs mx-1 w-30 px-2 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href ="https://github.com/alux444/online-store">Link to GitHub Repository</a>
               <a className="text-xs mx-1 w-30 px-2 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href ="https://alux444.github.io/online-store/">Link to website</a>
+            </div>
+          </div>
+          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+            <div className="basis-1/3 flex-1 text-center lg:mb-40">
+            <h4 className="text-2xl py-4">Trading Program</h4>
+              <p>A basic trading program made in C++. Can deposit and withdraw money from an account, and simulate buying and selling stocks.</p>
+              <br/>
+              <Image src={trading} className="rounded-lg object-cover lg:aspect-video aspect-[4/3] mb-10 border" layout="responsive" alt=""/>
+              <br/>
+              <br/>
+              <a className="text-xs mx-1 w-30 px-2 hover:bg-slate-400 bg-transparent border-2 hover:border-slate-400 text-slate-400 hover:text-white py-2 rounded-md" href = "https://github.com/eejl773/basic-trading-program">Link to GitHub Repository</a>
+            </div>
+            <div className="basis-1/3 flex-1 text-center lg:mb-40">
+              <h4 className="text-2xl py-4">TBA</h4>
+              
             </div>
           </div>
         </section>
